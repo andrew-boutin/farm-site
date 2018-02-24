@@ -1,0 +1,13 @@
+body {
+    background-image: url("../imgs/farmstand.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo {
+    background-image: url("../imgs/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 151px;
+    width: 288px;
+    border: solid black;
+}
