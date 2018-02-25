@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="preload" as="image" href="imgs/farmstand.png">
+    <link rel="preload" as="image" href="imgs/logo.jpg">
     <meta charset="utf-8">
     <title>Beaver Pond Farm</title>
     <meta name="description" content="Website for Beaver Pond Farm in Newport, NH">
@@ -8,15 +10,17 @@
     <meta name="keywords" content="beaver,pond,farm,newport,nh">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="image_src" href="imgs/logo.jpg">
+    <link rel="icon" href="imgs/favicon.ico">
 </head>
 <body>
     <div class="wrapper">
         <div style="float:left">
-               <div class="logo"></div>
-               <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeaverpondfarmnh&width=151&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId" width="288" height="46" style="border:none;overflow:hidden;padding-top:8px;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-</div>
-               <iframe width="400" height="320" frameborder="0" style="border:0;float:right;"
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJe2DDlenr4YkRfa7I-zThFgI&key=AIzaSyAVNXlQDXKso-4BJ99BnqJGdZmgTovFLpw" allowfullscreen></iframe>
+            <div class="logo"></div>
+            <iframe class="fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeaverpondfarmnh&width=151&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId" width="288" height="46" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+        <iframe class="maps" width="400" height="320" frameborder="0"
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJe2DDlenr4YkRfa7I-zThFgI&key=AIzaSyAVNXlQDXKso-4BJ99BnqJGdZmgTovFLpw" allowfullscreen></iframe>
     </div>
 </body>
 </html>

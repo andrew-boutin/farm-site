@@ -11,3 +11,12 @@ body {
     width: 288px;
     border: solid black;
 }
+.maps {
+    border: 0;
+    float: right;
+}
+.fb {
+    border: none;
+    overflow: hidden;
+    padding-top: 8px;
+}
