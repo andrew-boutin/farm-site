@@ -1,7 +1,5 @@
 # TODO
 
-- Mobile!
-  - Maps window size
-  - Layout
 - Favicon square img
-- Domain beaverpond.farm
+- Map minimize button
+- Domain beaverpondfarm.com

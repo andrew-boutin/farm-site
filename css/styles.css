@@ -14,9 +14,22 @@ body {
 .maps {
     border: 0;
     float: right;
+    width: 400px;
+    height: 320px;
+    border: solid darkgray;
 }
 .fb {
     border: none;
     overflow: hidden;
     padding-top: 8px;
+    width: 288px;
+    height: 46px;
+}
+/* Change Google Maps layout on small screens */
+@media all and (max-width: 709px) {
+    .maps {
+        width: 288px;
+        height: 151px;
+        float: left;
+    }
 }
