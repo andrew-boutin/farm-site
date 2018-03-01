@@ -92,3 +92,9 @@ div {
     height: 46px;
     padding: 0px;
 }
+.textOverlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 33%;
+    margin: 0 auto;
+}

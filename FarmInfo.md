@@ -1,3 +1,5 @@
+# Farm Info
+
 In 1780, the Osgoods claimed the land where the farm is now operating and chopped it out of the woodlands that were described in town history as "infested with bears". We still see bears on occasion, and are proud to continue the farming tradition. We are currently raising beef and lamb, growing vegetables, berries and apples, cutting hay and firewood and have a retail store right on the John Stark Highway. "Nana", at age 89, is still baking up a storm (with help) with homemade pies and other goodies almost every day! We invite you to stop by for the freshest and best local products available in the region!
 
 Located on the John Stark Highway (1047 John Stark Highway) between Newport and Claremont New Hampshire, our retail store looks like a little red barn. We have a couple of goats and/or sheep at the store...our mini-petting zoo. We are five miles outside each town. The farm itself is about a quarter mile up McDonough Road (turn at the Rental Center), with our pick-your-own blueberries and raspberries at the farm location.
