@@ -1,7 +1,71 @@
 body {
-    background-image: url("../imgs/farmstand.jpg");
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/graybackground.jpg");
+    background-repeat: repeat;
+}
+.title {
+    margin: 0px;
+    padding: 8px;
+}
+.titleLogo {
+    margin: 5px;
+}
+div {
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.bigContent {
+    height: 90vh;
+    width: 100%;
+}
+.splitContentWrapper {
+    display: table;
+}
+.splitContent {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.imgSplitContent {
+    width: 60%;
+}
+.textSplitContent {
+    width: 40%;
+}
+.home {
+    background-image: url("../imgs/farmstand.jpg");
+}
+.pie {
+    background-image: url("../imgs/pie.jpg");
+}
+.syrup {
+    background-image: url("../imgs/syrup.jpg");
+}
+.trees {
+    background-image: url("../imgs/trees.jpg");
+}
+.footer {
+    background-color: black;
+    height: 25vh;
+    width: 100%;
+    color: white;
+    display: table;
+}
+.footerLogo {
+    margin: 0 auto;
+}
+.footerText {
+    vertical-align: middle;
+}
+.footerCell {
+    display: table-cell;
+    width: 50%;
+}
+.logoWrapper {
+    float: left;
+    margin: 5px;
 }
 .logo {
     background-image: url("../imgs/logo.png");
@@ -17,6 +81,8 @@ body {
     width: 400px;
     height: 320px;
     border: solid darkgray;
+    margin: 8px;
+    padding: 0px;
 }
 .fb {
     border: none;
@@ -24,12 +90,5 @@ body {
     padding-top: 8px;
     width: 288px;
     height: 46px;
-}
-/* Change Google Maps layout on small screens */
-@media all and (max-width: 709px) {
-    .maps {
-        width: 288px;
-        height: 151px;
-        float: left;
-    }
+    padding: 0px;
 }
