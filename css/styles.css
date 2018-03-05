@@ -19,6 +19,7 @@ div {
 .bigContent {
     height: 90vh;
     width: 100%;
+    background-position: center;
 }
 .splitContentWrapper {
     display: table;
@@ -27,6 +28,7 @@ div {
     display: table-cell;
     height: 100%;
     vertical-align: middle;
+    background-position: center;
 }
 .imgSplitContent {
     width: 60%;
@@ -45,6 +47,27 @@ div {
 }
 .trees {
     background-image: url("../imgs/trees.jpg");
+}
+.firewood {
+    background-image: url("../imgs/firewood.jpg");
+}
+.meat {
+    background-image: url("../imgs/meat.png");
+}
+.hay {
+    background-image: url("../imgs/hay.jpg");
+}
+.plowing {
+    background-image: url("../imgs/plowing.jpg");
+}
+.fruitsAndVeggies {
+    background-image: url("../imgs/fruitsandveggies.jpg");
+}
+.pickyourown {
+    background-image: url("../imgs/pickyourown.jpg");
+}
+.localWares {
+    background-image: url("../imgs/localWares.jpg");
 }
 .footer {
     background-color: black;
