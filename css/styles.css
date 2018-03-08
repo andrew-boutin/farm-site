@@ -138,5 +138,6 @@ div {
     }
     .footerCell {
         display: block;
+        width: 100%;
     }
 }
