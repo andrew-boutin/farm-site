@@ -33,7 +33,7 @@ div {
 .imgSplitContent {
     width: 60%;
 }
-.textSplitContent {
+.textSplitContentWrapper {
     width: 40%;
 }
 .home {
@@ -71,7 +71,7 @@ div {
 }
 .footer {
     background-color: black;
-    height: 25vh;
+    height: 151px;
     width: 100%;
     color: white;
     display: table;
@@ -115,9 +115,28 @@ div {
     height: 46px;
     padding: 0px;
 }
-.textOverlay {
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 33%;
-    margin: 0 auto;
+@media all and (max-width: 600px) {
+    .imgSplitContent {
+        height: 45vh;
+        width: 100%;
+    }
+    .textSplitContentWrapper {
+        height: 45vh;
+        width: 100%;
+    }
+    .splitContent {
+        display: block;
+    }
+    .splitContentWrapper {
+        display: block;
+        border-top: solid black 2px;
+        border-bottom: solid black 2px;
+    }
+    .footer {
+        display: block;
+        height: 302px;
+    }
+    .footerCell {
+        display: block;
+    }
 }
