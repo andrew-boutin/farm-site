@@ -4,6 +4,21 @@ body {
     background-image: url("../imgs/graybackground.jpg");
     background-repeat: repeat;
 }
+.sideNav {
+    position: fixed;
+    background: black;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+.sideNav ul {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sideNav ul li {
+    height: 28px;
+    width: 28px;
+}
 .title {
     margin: 0px;
     padding: 8px;
