@@ -2,7 +2,9 @@
 
 Market locatd on John Stark Highway between Newport and Claremont. Market; retail store looks like a little red barn. The farm itself is about a quarter mile up McDonough Road.
 
-Beaver Pond Farm is a family owned and operated diversified farm. What we don't raise, we try to buy locally - freshest and best that Sullivan County, NH and neighbors in VT have to offer!
+Beaver Pond Farm is a family owned and operated diversified farm.
+We offer a wide variety of goods and services.
+What we don't raise, we try to buy locally.
 
 From the Area
 Pork, Chicken, Buffalo

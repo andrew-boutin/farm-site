@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="preload" as="image" href="imgs/farmstand.png">
-    <link rel="preload" as="image" href="imgs/logo.jpg">
     <meta charset="utf-8">
     <title>Beaver Pond Farm</title>
     <meta name="description" content="Website for Beaver Pond Farm in Newport, NH">
@@ -12,29 +10,58 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="image_src" href="imgs/logo.jpg">
     <link rel="icon" href="imgs/favicon.ico">
+     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </head>
 <body>
-    <div class="sideNav">
-        <ul>
-            <li><a href="#"><img src="imgs/farmicon.png"></a></li>
-            <li><a href="#fruitsAndVeggies"><img src="imgs/cornicon.png"></a></li>
-            <li><a href="#localWares"><img src="imgs/jaricon.png"></a></li>
-            <li><a href="#bakedGoods"><img src="imgs/pieicon.png"></a></li>
-            <li><a href="#meat"><img src="imgs/meaticon.png"></a></li>
-            <li><a href="#pickYourOwn"><img src="imgs/raspberryicon.png"></a></li>
-            <li><a href="#hay"><img src="imgs/hayicon.png"></a></li>
-            <li><a href="#firewood"><img src="imgs/axeicon.png"></a></li>
-            <li><a href="#plow"><img src="imgs/plowicon.png"></a></li>
-            <li><a href="#trees"><img src="imgs/treeicon.png"></a></li>
-            <li><a href="#syrup"><img src="imgs/syrupicon.png"></a></li>
-        </ul>
-    </div>
-    <div class="bigContent home">
-        <div class="logoWrapper">
-            <div class="logo titleLogo"></div>
-            <iframe class="fb" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeaverpondfarmnh&width=151&layout=button_count&action=like&size=large&show_faces=false&share=true&height=46&appId"></iframe>
+    <nav id="navwrapper" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Beaver Pond Farm</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jump To <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Jump To A Section On This Page</li>
+                            <li><a href="#"><img src="imgs/farmicon.png"> Welcome</a></li>
+                            <li><a href="#fruitsAndVeggies"><img src="imgs/cornicon.png"> Fruits & Veggies</a></li>
+                            <li><a href="#localWares"><img src="imgs/jaricon.png"> Local Wares</a></li>
+                            <li><a href="#bakedGoods"><img src="imgs/pieicon.png"> Baked Goods</a></li>
+                            <li><a href="#meat"><img src="imgs/meaticon.png"> Meat</a></li>
+                            <li><a href="#pickYourOwn"><img src="imgs/raspberryicon.png"> Pick Your Own</a></li>
+                            <li><a href="#hay"><img src="imgs/hayicon.png"> Hay</a></li>
+                            <li><a href="#firewood"><img src="imgs/axeicon.png"> Firewood</a></li>
+                            <li><a href="#plow"><img src="imgs/plowicon.png"> Plowing</a></li>
+                            <li><a href="#trees"><img src="imgs/treeicon.png"> Trees & Wreathes</a></li>
+                            <li><a href="#syrup"><img src="imgs/syrupicon.png"> Syrup</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <iframe class="maps" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJe2DDlenr4YkRfa7I-zThFgI&key=AIzaSyAVNXlQDXKso-4BJ99BnqJGdZmgTovFLpw"></iframe>
+    </nav>
+    <div class="mainContent bigContent home">
+        <div class="mainContentWrapper">
+            <div class="textOverlay">
+                <h1>Beaver Pond Farm</h1>
+                <i>The freshest and the best since 1780</i>
+            </div>
+        </div>
     </div>
     <div id="fruitsAndVeggies" class="bigContent splitContentWrapper">
         <div class="splitContent textSplitContentWrapper">
@@ -121,5 +148,6 @@
             beaverpondfarm1780@gmail.com
         </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
