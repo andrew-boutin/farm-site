@@ -4,6 +4,14 @@ body {
     background-image: url("../imgs/graybackground.jpg");
     background-repeat: repeat;
 }
+.carousel {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  .carousel .item img {
+    height: auto;
+    width: 100%;
+  }
 .mainContentWrapper {
     display: table-cell;
     vertical-align: middle;
@@ -93,6 +101,12 @@ div {
 }
 .home {
     background-image: url("../imgs/farmstand2.png");
+}
+.field {
+    background-image: url("../imgs/farm2.png");
+}
+.crops {
+    background-image: url("../imgs/farm3.png");
 }
 .pie {
     background-image: url("../imgs/pie.jpg");
