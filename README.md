@@ -11,3 +11,7 @@ Created a project in the Google API Console to use for the Google APIs. Using Go
 ## Facebook Integration
 
 Used [Facebook Page Plugin](https://developers.facebook.com/docs/plugins/page-plugin/) to generate `html` for Facebook integration.
+
+## Bootstrap
+
+Using [Bootstrap3](http://getbootstrap.com/docs/3.3/) for some components such as `navbar` and `carousel`.
