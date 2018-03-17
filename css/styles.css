@@ -56,13 +56,6 @@ body {
         top: 0;
     }
 }
-.headerLogo {
-    background-image: url("../imgs/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 144px;
-    height: 75px;
-}
 .title {
     margin: 0px;
     padding: 8px;
