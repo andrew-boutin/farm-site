@@ -1,6 +1,6 @@
 # Farm Site
 
-This is a website for [Beaver Pond Farm](http://andrewboutin.com/farm-site/) in Newport, NH.
+This is a website for [Beaver Pond Farm](http://beaverpondfarm.com) in Newport, NH.
 
 Hosted with GitHub pages.
 
@@ -15,3 +15,7 @@ Used [Facebook Page Plugin](https://developers.facebook.com/docs/plugins/page-pl
 ## Bootstrap
 
 Using [Bootstrap3](http://getbootstrap.com/docs/3.3/) for some components such as `navbar` and `carousel`.
+
+## Font Awesome
+
+Using [Font Awesome](https://fontawesome.com/) for some of the icons.

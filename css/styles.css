@@ -131,23 +131,6 @@ div {
 .localWares {
     background-image: url("../imgs/localwares.jpg");
 }
-.footer {
-    background-color: black;
-    height: 151px;
-    width: 100%;
-    color: white;
-    display: table;
-}
-.footerLogo {
-    margin: 0 auto;
-}
-.footerText {
-    vertical-align: middle;
-}
-.footerCell {
-    display: table-cell;
-    width: 50%;
-}
 .logoWrapper {
     float: left;
     margin: 5px;
@@ -207,12 +190,51 @@ div {
         border-top: solid black 2px;
         border-bottom: solid black 2px;
     }
-    .footer {
-        display: block;
-        height: 302px;
-    }
-    .footerCell {
-        display: block;
-        width: 100%;
-    }
+}
+.footer {
+    background: #f8f8f8;
+    padding-bottom: 30px;
+    color: #777;
+}
+.footer h3 {
+    border-bottom: 1px solid;
+    font-size: 20px;
+    padding: 30px 0 15px;
+}
+.footer ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+.footer ul li a {
+    padding-bottom: 6px;
+    display: block;
+}
+.footer a {
+    color: #555;
+}
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    float: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.social li a {
+    color: white;
+}
+.social li:hover {
+    background: black;
+}
+.social li a i {
+    font-size: 22px;
+    line-height: 36px;
 }
