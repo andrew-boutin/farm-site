@@ -56,13 +56,6 @@ body {
         top: 0;
     }
 }
-.title {
-    margin: 0px;
-    padding: 8px;
-}
-.titleLogo {
-    margin: 5px;
-}
 div {
     text-align: center;
     background-size: cover;
@@ -131,11 +124,6 @@ div {
 .localWares {
     background-image: url("../imgs/localwares.jpg");
 }
-.logoWrapper {
-    float: left;
-    margin: 5px;
-    margin-top:10vh;
-}
 .logo {
     background-image: url("../imgs/logo.png");
     background-size: cover;
@@ -143,34 +131,28 @@ div {
     height: 151px;
     width: 288px;
     border: solid black;
+    margin: auto;
 }
 .maps {
-    border: 0;
-    float: right;
     width: 400px;
     height: 320px;
     border: solid darkgray;
-    padding: 0px;
-    margin: 8px;
-    margin-top:10vh;
+}
+.fbwrapper {
+    height: 29px;
+    margin-top: 6px;
+    margin-bottom: 5px;
 }
 .fb {
     border: none;
     overflow: hidden;
-    padding-top: 8px;
-    width: 288px;
-    height: 46px;
-    padding: 0px;
+    width: 152px;
+    height: 29px;
 }
 @media all and (max-width: 735px) {
     .maps {
         width: 288px;
         height: 151px;
-    }
-}
-@media all and (max-width: 624px) {
-    .maps {
-        float: left;
     }
 }
 @media all and (max-width: 600px) {
