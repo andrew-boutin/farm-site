@@ -172,6 +172,9 @@ div {
         border-top: solid black 2px;
         border-bottom: solid black 2px;
     }
+    .bigContent {
+        height: 90vh;
+    }
 }
 .footer {
     background: #f8f8f8;
